@@ -24,6 +24,18 @@ for (int i = 0; i < length; i=i+1)
         index = index + 1;
     }
 }
+string Print(string[] array)
+{
+    int length = array.Length;
+    string output = String.Empty;
+    for (int i = 0; i < length; i = i + 1)
+    {
+        output = output + ($"array[{i+1}]: {array[i]} \n");
+    }
+    return output;
+}
+string input = Print(InputArray);
+File.WriteAllText("input.txt", input);
 
-
-
+string output = Print(OutputArray);
+File.WriteAllText("output.txt", output);

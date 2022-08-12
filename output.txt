@@ -1,0 +1,5 @@
+array[1]: ks3 
+array[2]: cow 
+array[3]: car 
+array[4]: cs 
+array[5]: a 

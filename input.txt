@@ -1,0 +1,10 @@
+array[1]: Moscow2 
+array[2]: ks3 
+array[3]: cow 
+array[4]: k:52 
+array[5]: Silense 
+array[6]: car 
+array[7]: home 
+array[8]: cs 
+array[9]: a 
+array[10]: 425light 
