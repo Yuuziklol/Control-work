@@ -13,6 +13,17 @@ int CountElements(string [] array)
     }
     return(count);
 }
+string [] OutputArray = new string[CountElements(InputArray)];
+int index = 0;
+int length = InputArray.Length;
+for (int i = 0; i < length; i=i+1)
+{
+    if (InputArray[i].Length <= 3)
+    {
+        OutputArray[index] = InputArray[i];
+        index = index + 1;
+    }
+}
 
 
 
